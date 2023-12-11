@@ -1,0 +1,13 @@
+prefix=C:/Program Files/zlib
+exec_prefix=C:/Program Files/zlib
+libdir=d:/3rdpartybuild/zlib/zlib-vc14-64/zlib-vc14-64/lib
+sharedlibdir=d:/3rdpartybuild/zlib/zlib-vc14-64/zlib-vc14-64/lib
+includedir=d:/3rdpartybuild/zlib/zlib-vc14-64/zlib-vc14-64/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.8
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

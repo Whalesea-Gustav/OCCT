@@ -53,3 +53,4 @@ win64
 /stamp*
 /build*
 /install
+/cmake-build-debug-vs22littleitx/
