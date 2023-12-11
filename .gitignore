@@ -54,3 +54,4 @@ win64
 /build*
 /install
 /cmake-build-debug-vs22littleitx/
+/.idea/
